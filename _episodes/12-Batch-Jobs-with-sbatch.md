@@ -1,5 +1,5 @@
 ---
-title: "14 Globus"
+title: "12 Batch Jobs with sbatch"
 teaching: 10
 exercises: 0
 questions:
@@ -13,8 +13,9 @@ FIXME
 
 {% include links.md %}
 
+# Slurm Basics
+
+Insert text
 
 
 
-
-### Globus

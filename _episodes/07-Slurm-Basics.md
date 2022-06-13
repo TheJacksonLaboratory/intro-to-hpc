@@ -3,9 +3,9 @@ title: "07 Slurm Basics"
 teaching: 15
 exercises: 0
 questions:
-- "What is SLURM"
+- "What is Slurm"
 objectives:
-- "Introduction to basic SLURM commands"
+- "Introduction to basic Slurm commands"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---

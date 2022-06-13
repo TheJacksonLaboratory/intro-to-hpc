@@ -1,11 +1,11 @@
 ---
-title: "09 Sumhpc SLURM configuration"
+title: "09 Sumhpc Slurm configuration"
 teaching: 10
 exercises: 0
 questions:
-- "How is Sumhpc configured with SLURM"
+- "How is Sumhpc configured with Slurm"
 objectives:
-- "Introduction to Sumhpc's SLURM configuration"
+- "Introduction to Sumhpc's Slurm configuration"
 keypoints:
 - "Use __ to view "
 - "Use __ to view "

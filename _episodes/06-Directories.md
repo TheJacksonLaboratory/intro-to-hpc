@@ -1,5 +1,5 @@
 ---
-title: "06 directories"
+title: "06 Directories"
 teaching: 10
 exercises: 0
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "11 software on Sumhpc"
+title: "11 Software on Sumhpc"
 teaching: 10
 exercises: 0
 questions:

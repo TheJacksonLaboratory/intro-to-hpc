@@ -1,5 +1,5 @@
 ---
-title: "03 HPC architecture overview"
+title: "03 HPC Architecture Overview"
 teaching: 10
 exercises: 0
 questions:

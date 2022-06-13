@@ -1,5 +1,5 @@
 ---
-title: "04 what is a job"
+title: "04 What is a Job"
 teaching: 5
 exercises: 0
 questions:

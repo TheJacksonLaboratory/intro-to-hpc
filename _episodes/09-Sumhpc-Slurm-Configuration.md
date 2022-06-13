@@ -1,5 +1,5 @@
 ---
-title: "09 Sumhpc Slurm configuration"
+title: "09 Sumhpc Slurm Configuration"
 teaching: 10
 exercises: 0
 questions:

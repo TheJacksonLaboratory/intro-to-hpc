@@ -2,6 +2,10 @@
 layout: page
 title: "Licenses"
 ---
+
+## Attribution
+This workshop website was adapted from [`carpentries/styles` repository][styles] under the license below, they had no input on changes made to the website nor the material presented in the workshop. 
+
 ## Instructional Material
 
 All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is

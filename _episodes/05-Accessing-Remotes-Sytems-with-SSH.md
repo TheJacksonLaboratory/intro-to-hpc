@@ -118,7 +118,7 @@ Are you sure you want to continue connecting (yes/no)?
 >Lets take a look at the available memory on the remote systesm using the ```df . -h``` command
 >
 >```
->$ free -h 
+>$ df . -h 
 >```
 >{: .bash}
 >

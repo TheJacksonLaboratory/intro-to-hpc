@@ -28,17 +28,8 @@ The take home from this lesson.
 
 The details on how ssh works
 
-- The client asks the remote server (sumhpc login node) to establish a connection
-- The remote server then sends a public key to the client (this is done automatically with the ssh command you do not need to generate a key for this). 
-- The client stores the public key in its known host file (this is done automatically with the ssh command you do not need to generate a key for this). 
-- (Gotcha) if the remote server changes its public ssh key you may need to clean remove the previous ssh key from your list of known hosts. You can contact your system adminstrator if this happens, before making any changes. 
-
-
-INSERT FIGURE OF SSH
-
-
-Figure 06.01 shows the basics on how ssh establishes a secure 
-
+- The (local) client asks the remote server (sumhpc login node) to establish a connection.
+- The server and the client work together to encrypt the contents of data transfered through the connection.
 
 Using ssh to connect to remote server. 
 
@@ -52,14 +43,30 @@ Example ssh connection for this class
 
 - open terminal 
 
-- type `ssh user@<remote server IP address>` where use name is you user name on the **remote** system, instructor will provide remote IP address 
+- type `ssh user@<remote server IP address>` where use name is you user name on the **remote** system, instructor will provide remote IP address. Your username is user for this example 
+
+- Notice the first time you connect to a new machine you may get asked the following question. 
+
+```BASH
+[user@edu-vm-63d1410f-2 ~]$ ssh user@35.227.70.171
+The authenticity of host '35.227.70.171 (35.227.70.171)' can\'t be established.
+ECDSA key fingerprint is SHA256:UTHv5IOvrF9uvxuh9Fo8uW2bx0BwCRLyrwHhONoiIj8.
+ECDSA key fingerprint is MD5:15:bb:25:2a:3a:45:f4:c7:df:21:26:37:12:66:79:77.
+Are you sure you want to continue connecting (yes/no)?
+```
+- If this is the system your looking to connect and you trust it type `yes`. 
+
+- Now your connected to the remote system things that you enter in the terminal are now being exicuted on the remote system.
+
+HERE CHALLANGE HERE TO SEE THE NEW SYSTEM.
+
+- To disconnect type `exit`
 
 # SFTP 
 
 SFTP stands for secure file transfer protocol and is used to transfer files from one computer to another. Some commony used sftp client applications include CyberDuck, FileZilla, MobaXterm, and WinSCP. You can contact your desktop or laptop system admistartor for information regarding the installation of an sftp client. 
 
-
-To connect to remote session with MobaXterm
+To connect to remote session with MobaXterm.
 
 ## SFTP client usage 
 

@@ -15,24 +15,20 @@ keypoints:
 
 # SSH Basics
 
-The take home from this lesson.
+**The take home from this lesson.**
 
 - Use the command `ssh <username>@<remote server IP address|domain name>` to connect to a remote server.
 
-- other tools exist for connecting and transfering files to the remote server using the ssh protocol including sftp and rsync.
-
-The details on how ssh works
+**The details on how ssh works.**
 
 - The (local) client asks the remote server (sumhpc login node) to establish a connection.
 - The server and the client work together to encrypt the contents of data transfered through the connection.
 
-Using ssh to connect to remote server. 
-
+**Using ssh to connect to remote server.** 
 
 - Open terminal 
 
 - type `ssh <username>@<remote server IP address|domain name>` where use name is your username on the remote system and the IP address or domain name (that resolves to an IP address) to the remote system you would like to connect to.  
-
 
 **Example ssh connection for this class**
 

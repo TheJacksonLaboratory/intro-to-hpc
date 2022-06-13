@@ -8,7 +8,7 @@ objectives:
 - "Understand how ssh and related tools are used to connect to HPC resources"
 keypoints:
 - "ssh is the preferred way to connect to linux servers"
-- "ssh is cryptographically secure and protects information sent"
+- "ssh is secure and protects information sent"
 - "sftp available in a command line application and in GUI based applications for file transfers"
 ---
 {% include links.md %}

@@ -31,14 +31,14 @@ Using ssh to connect to remote server.
 
 - Open terminal 
 
-- type `ssh <username>@<remote server IP address|domain name>` where use name is you user name on the **remote** system 
+- type `ssh <username>@<remote server IP address|domain name>` where use name is your username on the remote system and the IP address or domain name (that resolves to an IP address) to the remote system you would like to connect to.  
 
 
-Example ssh connection for this class
+**Example ssh connection for this class**
 
 - open terminal 
 
-- type `ssh user@<remote server IP address>` where use name is you user name on the **remote** system, instructor will provide remote IP address. Your username is user for this example 
+- type `ssh user@<remote server IP address>` where ```user``` is your username on the remote system for this example, instructor will provide remote IP address. Your username is user for this example 
 
 - Notice the first time you connect to a new machine you may get asked the following question. 
 

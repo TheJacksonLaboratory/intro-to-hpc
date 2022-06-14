@@ -84,8 +84,8 @@ The commands below have multiple parts the whole command within the quotes shoul
 | JobID                   | -j     | --jobs             | display information about job or jobs        |
 | UserID                  | -u     |                    |                                              |
 | Output Format           | -o     | --format           |                                              |
-| Output Format           | -e     | --helpformat       | Print a list of fields for --format option   |
-| Output Format           | -l     | --long             | long format option                           |
+| Output Format help      | -e     | --helpformat       | Print a list of fields for --format option   |
+| Output Format long style| -l     | --long             | long format option                           |
 | Jobs included after     | -S     | --starttime        |                                              |
 | Jobs included before    | -E     | --endtime          |                                              |
 | UserID                  | -u     | --uid              |                                              |

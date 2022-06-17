@@ -1,6 +1,6 @@
 ---
 title: "14 Globus for Data Transfers"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "What is Globus?"

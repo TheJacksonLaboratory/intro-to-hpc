@@ -69,10 +69,13 @@ module load singularity
 ```pwd```
 
 - Now grab the batch job templates:\
-```git clone git@github.com:TheJacksonLaboratory/slurm-templates.git``` 
+```wget https://github.com/TheJacksonLaboratory/slurm-templates/archive/refs/heads/main.zip```
+
+- Unzip the templates:\
+```unzip main.zip```
 
 - Navigate into the new directory slurm-templates:\
-```cd slurm-templates```
+```cd slurm-templates-main```
 
 - Use ```cat``` to  view the template example `slurm_template_02_compute_batch.sh`:\
 ```cat slurm_template_02_compute_batch.sh``` 

@@ -144,7 +144,7 @@ module load singularity
 - View the jobid with cat.\
 ```cat my_array_01_job_id.txt ```
 
- - Note that the array only prints one jobid to the output, but many were viewed as running.\
+- Note that the array only prints one jobid to the output, but many were viewed as running.\
 
 - View array script output files:\
 ```ls ```

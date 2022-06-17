@@ -126,10 +126,10 @@ module load singularity
 
 # Array examples
 
-- View the example list ```list_lib_names.txt```: \
+- View the example list ```list_lib_names.txt```:\
 ```cat list_lib_names.txt ```
 
-- View the example sbatch array script ```slurm_01_array_dev_dev.sh```:  \
+- View the example sbatch array script ```slurm_01_array_dev_dev.sh```: \
 ```cat slurm_01_array_dev_dev.sh ```
 
 - View the content of our working directory:\
@@ -144,13 +144,16 @@ module load singularity
 - View the jobid with cat.\
 ```cat my_array_01_job_id.txt ```
 
- - Note that the array only prints one jobid to the output, but many were viewed as running. \
+ - Note that the array only prints one jobid to the output, but many were viewed as running.\
 
 - View array script output files:\
 ```ls ```
 
 - View the output with cat.\
 ```cat array_run1_1_out_SRR2062637_file_names.txt ```
+
+- View the example sbatch array without throttle script ```slurm_02_array_dev_dev.sh```: \
+```cat slurm_02_array_dev_dev.sh ```
 
 - Run the array job:\
 ```sbatch slurm_02_array_dev_dev.sh &> my_array_02_job_id.txt ```

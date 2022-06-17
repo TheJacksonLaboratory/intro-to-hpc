@@ -18,8 +18,7 @@ keypoints:
 
 ### General 
 
-INSERT IMAGE
-IMAGE SHOULD CONTAIN COMPUTE NODES, LOGIN NODES, SWITCHES, NETWORKING, STORAGE
+![hpc example](../fig/hpc.svg)
 
 ### Cluster 
 

@@ -47,16 +47,16 @@ Are you sure you want to continue connecting (yes/no)?
 
 - Lets take a look around the directories. 
 
-- Take a look at the home directory
+- Take a look at the home directory: \
 ```ls ~ ```
 
-- Take a look at the fastsrcatch directory
+- Take a look at the fastsrcatch directory: \
 ```ls /fastscratch ```
 
-- Take a look at the fastsrcatch directory
+- Take a look at the fastsrcatch directory: \
 ```ls /projects ```
 
-- You can remain logged in for the rest of the tutorial, but when your ready to exit, just type ```exit`` on the terminal.  
+- You can remain logged in for the rest of the tutorial, but when your ready to exit, just issue the ```exit`` to the prompt.  
 
 ## SFTP 
 

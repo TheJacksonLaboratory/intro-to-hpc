@@ -39,7 +39,7 @@ To use Singularity, all you have to do is load the module by running `module loa
 ### Software Hands On Example.
 
 - First grab an interactive job with ```srun```:\
-```srun -p dev -q dev --pty bash```
+```srun -p dev -q dev --time 2:00:00 --pty bash```
 
 - View the available modules with **module avail**:\
 ```module avail ```
@@ -49,9 +49,3 @@ To use Singularity, all you have to do is load the module by running `module loa
 
 - Lets check and see what version of singularity is loaded by default:\ 
 ```singularity version```
-
-- Lets make a new directory (called 'newdir') on fastscratch and navigate to it:\
-```mkdir -p /fastscratch/${USER}/newdir```
-```cd /fastscratch/${USER}/newdir```
-
-

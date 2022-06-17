@@ -37,7 +37,7 @@ keypoints:
 |                        | compute     | high_mem   | dev             |
 |:-----------------------|:-----------:|:----------:|:---------------:|
 | # of nodes             | 100         | 2          | 20              |
-| Usable memory per node | 760GB       | 3022GB*    | 180GB           |
+| Usable memory per node | 754GB       | 3022GB*    | 180GB           |
 | Usable cores per node  | 70          | 142        | 30              |
 | CPU core speed​​​​​​​         | 2.70GHz     | 2.70GHz    | 3.60GHz         |
 | Total partition MEM    | 76T         | 6T         | 3.6T            |

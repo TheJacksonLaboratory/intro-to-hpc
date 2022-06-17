@@ -39,7 +39,7 @@ keypoints:
 |Tier2 | Not Mounted to HPC | Yes**    | Used for storing “cooler” data, not meant for HPC computations| 
 |Tier3 | Not Mounted to HPC | Yes**    | Not accessible via Globus. Service desk ticket required for archival and retrieval.| 
 
-\* Tier1 is not backed up but does have hidden .snapshot directory for recovery of deleted files within 7 days (this is not a true backup). 
+\* Tier1 is not backed up but does have hidden .snapshot directory for recovery of deleted files within 7 days (this is not a true backup). \
 \** Tiers 2 & 3 have cross-site replication between cross-site replication between BH and CT.
 - globus is used to transfer between Tier2 and Tier1.
 

@@ -16,10 +16,11 @@ keypoints:
  
  - ```seff``` usage: ```seff <jobid>```
  - requires jobid
- - Get previous jobid from file 
- ```cat my_job_id.txt```
- - Run seff with jobid.
+ - Get previous jobid from output file:\
+ ```ls ```
+ - Run seff with jobid.\
+```seff <jobid>```
 
-### Use ```sacct``` to view more information for more jobs
+### Use ```sacct``` to view more information for more jobs:\
 ```sacct -u ${USER} -S 2022-06-17 -oUser,JobID,Jobname,partition,state,time,start,end,elapsed,MaxRss,MaxVMSize,nnodes,ncpus,CPUTime,nodelist```
 

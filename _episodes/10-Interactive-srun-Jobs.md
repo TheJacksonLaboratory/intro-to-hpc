@@ -9,7 +9,8 @@ objectives:
 - "Introduction to setting slurm parameters."
 - "Highlight the how program resource parameters still need to be set."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Set slurm run parameters correctly."
+- "Set your script/program's core and mem parameters correctly."
 ---
 
 {% include links.md %}

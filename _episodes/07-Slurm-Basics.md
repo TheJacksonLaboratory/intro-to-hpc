@@ -38,23 +38,27 @@ keypoints:
 
 ### Usage: Viewing the current status of cluster
 
-- **squeue** shows the queue 
+- **squeue** shows the queue:\
+```squeue ```
 
-- **sinfo** shows the cluster partitions and node utilization
+- **sinfo** shows the cluster partitions and node utilization:\
+```sinfo ```
 
 ### Usage: View cluster config 
 The commands below have multiple parts the whole command within the quotes should be executed. 
 
-- '**scontrol** show partition' shows the partitions 
+- '**scontrol** show partition' shows the partitions:\
+```scontrol show partition```
 
-- '**sacctmgr** show qos format="name%-20,maxjobspu%-12,maxtrespu%-30,maxwall%-20"' shows the QoS quality of service
+- '**sacctmgr** show qos format="name%-20,maxjobspu%-12,maxtrespu%-30,maxwall%-20"' shows the QoS quality of service:\
+```sacctmgr show qos format="name%-20,maxjobspu%-12,maxtrespu%-30,maxwall%-20" ```
+
 
 ### Usage: View job information 
 - **sacct** 
 
 - **seff**
 
-- **sstat**
 
 ### Usage: Cancel job
 - '**scontrol** -f \<JobID\>' cancels job 

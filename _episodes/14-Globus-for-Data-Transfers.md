@@ -8,8 +8,8 @@ questions:
 objectives:
 - "Understand what Globus is used for."
 keypoints:
-- "User Globus to transfer files to and from HPC."
-- "User Globus to transfer files to and from Tier2."
+- "Use Globus to transfer files to and from HPC."
+- "Use Globus to transfer files to and from Tier2."
 ---
 
 {% include links.md %}

@@ -15,7 +15,7 @@ keypoints:
 
 {% include links.md %}
 
-![hpc example](../fig/parts.svg)
+![parts example](../fig/parts.svg)
 
 ## Computer Component Review
 
@@ -40,5 +40,6 @@ keypoints:
 
 \* note Sumhpc High Mem nodes contain 142 cores each and ~3TB of RAM.
 
-- HPCs are servers networked together and managed with a scheduler
+## HPCs are servers networked together and managed with a scheduler
 
+![cluster example](../fig/cluster.svg)

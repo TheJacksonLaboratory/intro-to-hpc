@@ -63,7 +63,7 @@ The commands below have multiple parts the whole command within the quotes shoul
 ### Usage: Cancel job
 - '**scontrol** -f \<JobID\>' cancels job 
 
-## Common Slurm Terms and Parameters For srun and sbatch
+## Common Slurm Terms and Parameters for srun and sbatch
 
 | Common Name            | - flag | -\-flag            |   Definition/notes                           |
 |------------------------|--------|--------------------|----------------------------------------------|
@@ -85,7 +85,7 @@ The commands below have multiple parts the whole command within the quotes shoul
 | Time Limit             | -t     | -\-time            | Set limit on job run time                    |
 
 
-## Slurm Terms and Parameters For sacct 
+## Slurm Terms and Parameters for sacct 
 
 | Common Name             | - flag | -\-flag            |   Definition/notes                           |
 |-------------------------|--------|--------------------|----------------------------------------------|

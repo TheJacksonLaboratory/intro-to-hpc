@@ -34,7 +34,7 @@ keypoints:
 | Component | Home/Busines Computer | Server     | Typical Individual  Node in HPC | Typical Total HPC System | Individual  Node on Sumhpc | Total Sumhpc System | 
 |-----------|-----------------------|------------|-------------------------------|--------------------------|---------------------------|---------------------|
 | CPU (cores)| 4 - 8 | 12 - 128  | 32 - 128 | 1000s | 70\* | 7,000 |
-| RAM(GB) | 8 -17 | 64 - 960 | 240 - 3000 | 64,000 | 754 - 3TB | 76.8 TB|
+| RAM(GB) | 8 -16 | 64 - 960 | 240 - 3000 | 64,000 | 754 - 3TB | 76.8 TB|
 | DISK (TB)| .5 - 1 TB | 8 - 100 | None - 1 TB | 100s (Networked) | NA | 2.7 PB |
 | Networking (Gbe)| .1 - 1 | 1 - 10 | 40 - 100 | 40 - 100 | 40 | 40 + |
 

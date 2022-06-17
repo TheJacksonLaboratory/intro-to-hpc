@@ -47,7 +47,7 @@ To use Singularity, all you have to do is load the module by running `module loa
 - Lets load a module:\
 ```module load python36```
 
-- Lets check and see what version of singularity is loaded by default:\ 
+- Lets check and see what version of singularity is loaded by default:\
 ```singularity version```
 
 - Pull an docker image for samtools with singularity:\

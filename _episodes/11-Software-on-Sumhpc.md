@@ -57,8 +57,14 @@ To use Singularity, all you have to do is load the module by running `module loa
 - Verify your in the correct directory:\
 ```pwd```
 
+- View directory files:\
+```ls ```
+
 - Pull an docker image for samtools with singularity:\
 ```singularity pull staphb_samtools_1.15.sif docker://staphb/samtools:1.15 ```
+
+- View new sif file:\
+```ls ```
 
 - Run the samtools program (just print the help statement):\
 ```singularity exec staphb_samtools_1.15.sif samtools --help ```

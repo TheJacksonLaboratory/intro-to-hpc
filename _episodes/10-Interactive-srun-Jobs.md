@@ -1,5 +1,5 @@
 ---
-title: "15 Interactive SRUN Jobs"
+title: "10 Interactive SRUN Jobs"
 teaching: 10
 exercises: 0
 questions:

@@ -15,6 +15,8 @@ keypoints:
 
 {% include links.md %}
 
+![hpc example](../fig/parts.svg)
+
 ## Computer Component Review
 
  - **CPU:** CPUs are the data process unit, they are composed of multiple cores. For legacy reasons software often refers the number of cores as the number of CPUs, so yeah that is confusing. 

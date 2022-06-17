@@ -3,16 +3,15 @@ title: "01 Welcome and Introductions"
 teaching: 5
 exercises: 0
 questions:
-- "Instructor introductions"
+- "Who is providing this training?"
 objectives:
-- "Overview of the course"
+- "Introduction to the instructors and helpers."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Welcome"
 ---
-
 
 {% include links.md %}
 
-# Welcome and Introductions
+### Welcome and Introductions
 
-Welcome this introduction to HPC training. Today we will 
+Welcome this introduction to HPC training.

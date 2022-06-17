@@ -11,29 +11,31 @@ keypoints:
 - "HPC utilizes various tiers of storage optimized to different usage types"
 
 ---
-FIXME
 
 {% include links.md %}
 
-# HPC architecture overview
+## HPC architecture overview
 
-## General 
+### General 
 
 INSERT IMAGE
 IMAGE SHOULD CONTAIN COMPUTE NODES, LOGIN NODES, SWITCHES, NETWORKING, STORAGE
 
+### Cluster 
 
-### CLUSTER
-
-A cluster is a group of computers networked together
+A cluster is a group of computers networked together.
 
 ### Login Node
 
 The login node is where you connect to the cluster and submit jobs.
 
-### Compute Node
+### Administrative Nodes
 
-The compute node is where the computational tasks are carried out. Sumhpc includes 100 Supermicro X11DPT-B Series servers with 70 Intel Xeon Gold 6150 computable cores at 2.7GHz and 768 GB RAM.  Sumhpc include 2 high-mem nodes with 142 Intel Xeon Gold 6150 cores at 2.7GHz and 3 TB RAM available per none for workloads that exceed 768 GB RAM.
+The administrative nodes are what manage the cluster scheduling and other admin tasks, users do not login to these. 
+
+### Compute Nodes
+
+The compute nodes are where the computational tasks are carried out. Sumhpc includes 100 Supermicro X11DPT-B Series servers with 70 Intel Xeon Gold 6150 computable cores at 2.7GHz and 768 GB RAM.  Sumhpc include 2 high-mem nodes with 142 Intel Xeon Gold 6150 cores at 2.7GHz and 3 TB RAM available per none for workloads that exceed 768 GB RAM.
 
 ### Cluster Accessible Storage
 

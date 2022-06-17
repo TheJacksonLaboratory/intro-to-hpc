@@ -3,18 +3,21 @@ title: "14 Globus for Data Transfers"
 teaching: 10
 exercises: 0
 questions:
-- How to connect to Sumhpc"
+- "What is Globus?"
+- "When do I need to use Globus?"
 objectives:
-- "Introduction to basic Slurm commands"
+- "Understand what Globus is used for."
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "User Globus to transfer files to and from HPC."
+- "User Globus to transfer files to and from Tier2."
 ---
-FIXME
 
 {% include links.md %}
 
+## Globus
 
+- Globus is used to transfer data to and from the HPC environment.
 
+- Globus is used to move data to and from Tier2. 
 
-
-### Globus
+- Please see workshop video on how to use Globus (emailed after workshop).

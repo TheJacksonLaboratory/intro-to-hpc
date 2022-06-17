@@ -3,28 +3,23 @@ title: "13 Job Statistics and Histories"
 teaching: 10
 exercises: 0
 questions:
-- How to connect to Sumhpc"
+- "What types of historical information is available for my jobs?"
 objectives:
-- "Introduction to basic Slurm commands"
+- "Understand how to use seff and sacct"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "sacct shows details on memory utilization (MaxRSS), but only for completed jobs."
 ---
-
 
 {% include links.md %}
 
-### Directory Structure Best Practice
+### Use ```seff``` to view information about a particular job.
+ 
+ - ```seff``` usage: ```seff <jobid>```
+ - requires jobid
+ - Get previous jobid from file 
+ ```cat my_job_id.txt```
+ - Run seff with jobid.
 
-seff
-
-sacct --brief
-
-sacct -S2014-07-03-11:40 -E2014-07-03-12:00 -X -ojobid,start,end,state
-
-
-sacct -T -S2014-07-03-11:40 -E2014-07-03-12:00 -X -ojobid,jobname,user,start,end,state
-
-sacct --allocations
-
-sacct -u <userid> -S 2020-02-25 format=User,JobID,Jobname,partition,state,time,start,end,elapsed,MaxRss,MaxVMSize,nnodes,ncpus,nodelist
+### Use ```sacct``` to view more information for more jobs
+```sacct -u ${USER} -S 2022-06-17 -oUser,JobID,Jobname,partition,state,time,start,end,elapsed,MaxRss,MaxVMSize,nnodes,ncpus,CPUTime,nodelist```
 

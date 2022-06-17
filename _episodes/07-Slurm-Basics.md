@@ -1,34 +1,38 @@
 ---
 title: "07 Slurm Basics"
-teaching: 15
+teaching: 10
 exercises: 0
 questions:
 - "What is Slurm"
 objectives:
-- "Introduction to basic Slurm commands"
+- "Introduction to basic Slurm commands and parameters"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "srun can access an interactive job"
+- "sbatch executes batch job"
+- "srun and sbatch have similar parameters"
+- "scontrol and saccmgr can access the Sumhpc partition and QoS configurations"
+- "sacct, seff, stat can provide access to my job history and resource utilization"
 ---
-FIXME
 
 {% include links.md %}
 
-# General Slurm Usage and Commands
+# General Slurm Commands and Parameters
 
-|  Usage               |              Slurm Commands                |
-|----------------------|--------------------------------------------|
-| submit job           | **srun**,    **sbatch**,    **salloc**     |
-| view cluster status  | **squeue**,   **sinfo**                     |
-| view cluster config  | '**scontrol** show partition' **sacctmgr** |
-| view job information | **sacct**,     **seff**,     **sstat**     |
-| cancel job           | '**scontrol** -f \<JobID\>'                |
+|  Usage                         |              Slurm Commands                |
+|--------------------------------|--------------------------------------------|
+| submit job                     | **srun**,    **sbatch**,    **salloc**     |
+| view cluster status            | **squeue**,   **sinfo**                    |
+| view cluster config            | '**scontrol** show partition' **sacctmgr** |
+| view job information (history) | **sacct**,     **seff**,     **sstat**     |
+| cancel job                     | '**scontrol** -f \<JobID\>'                |
 
-**Slurm documentation** can be found here: LINK 
+**Slurm documentation** can be found here: 
+```https://slurm.schedmd.com/documentation.html``` 
 
 ### Usage: Submitting Jobs to Slurm
 - **srun** is the command for requesting an interactive job.
 
-- **sbatch** is the command for requesting an batch job.
+- **sbatch** is the command for requesting a batch job.
 
 - **salloc** is another command for requesting an interactive job.
 
@@ -113,9 +117,4 @@ The commands below have multiple parts the whole command within the quotes shoul
 | End           | End time of job                                                          |
 | State         | State of job                                                             |
 | ExitCode      | Exit code from job                                                       |
-
-
-## HPC Live
-
-[HPC Live](https://hpclive.jax.org/d/_yYwcFxZk/sumner-dashboard?orgId=2&refresh=5m)
 

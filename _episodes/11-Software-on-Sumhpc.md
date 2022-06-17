@@ -3,13 +3,17 @@ title: "11 Software on Sumhpc"
 teaching: 10
 exercises: 0
 questions:
-- How to connect to Sumhpc"
+- "How do we access software on Sumhpc"
 objectives:
-- "Introduction to basic SLURM commands"
+- "Identify where software can be installed"
+- "How to access low-level software such as libraries, compilers, Singularity, and programming language binaries with Environment Modules."
+- "Identify how and when to use singularity."
+
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Users are able to download and install software into their userspace (`/projects` or `/home` directories)"
+- "Low-level software such as libraries, compilers, Singularity, and programming language binaries with Environment Modules."
+- "Singularity is a new and liberating change to software installations on HPC."
 ---
-FIXME
 
 {% include links.md %}
 
@@ -30,5 +34,24 @@ Now, only low-level software such as libraries, compilers, Singularity, and prog
 
 The newest and most liberating change to software installations on HPC is the introduction of Singularity. Containerization allows you to install whatever software you want inside of a singular, stand-alone Singularity image file (`.sif`). This file contains your software, custom environment, and metadata all in one. 
 
-To use Singularity, all you have to do is load the module by running `module load singularity` in a running job session on Sumhpc. Singularity can download new containers (`singularity pull`), run existing ones (`singularity run/exec/shell`), or upload new containers to registries (`singularity push`).
+To use Singularity, all you have to do is load the module by running `module load singularity` in a running job session on Sumhpc. Singularity can download new containers (`singularity pull`), run existing ones (`singularity run/exec/shell`). 
+
+### Software Hands On Example.
+
+- First grab an interactive job with ```srun```:\
+```srun -p dev -q dev --pty bash```
+
+- View the available modules with **module avail**:\
+```module avail ```
+
+- Lets load a module:\
+```module load python36```
+
+- Lets check and see what version of singularity is loaded by default:\ 
+```singularity version```
+
+- Lets make a new directory (called 'newdir') on fastscratch and navigate to it:\
+```mkdir -p /fastscratch/${USER}/newdir```
+```cd /fastscratch/${USER}/newdir```
+
 

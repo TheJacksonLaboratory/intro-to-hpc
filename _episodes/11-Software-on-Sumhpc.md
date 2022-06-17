@@ -50,6 +50,13 @@ To use Singularity, all you have to do is load the module by running `module loa
 - Lets check and see what version of singularity is loaded by default:\
 ```singularity version```
 
+- Lets make a new directory (called 'newdir') on /fastscratch and navigate to it:\
+```mkdir -p /fastscratch/${USER}/newdir```\
+```cd /fastscratch/${USER}/newdir```
+
+- Verify your in the correct directory:\
+```pwd```
+
 - Pull an docker image for samtools with singularity:\
 ```singularity pull staphb_samtools_1.15.sif docker://staphb/samtools:1.15 ```
 
@@ -58,3 +65,5 @@ To use Singularity, all you have to do is load the module by running `module loa
 
 - Run the samtools view program (just print the help statement):\
 ```singularity exec staphb_samtools_1.15.sif samtools view --help ```
+
+- link to dockerhub samtools source: https://hub.docker.com/r/staphb/samtools/tags

@@ -38,8 +38,11 @@ keypoints:
 
 ### Usage: Viewing the current status of cluster
 
-- **squeue** shows the queue:\
+- **squeue** shows the whole queue:\
 ```squeue ```
+
+- **squeue** shows the your jobs in the queue:\
+```squeue -u $USER ```
 
 - **sinfo** shows the cluster partitions and node utilization:\
 ```sinfo ```

@@ -16,7 +16,7 @@ objectives:
 keypoints:
 - "**sbatch** allows you to schedule jobs that will execute as soon as the requested resources are available."
 - "Example headers can be found at https://github.com/TheJacksonLaboratory/slurm-templates "
-- "Common slurm batch file extensions include ```.sh``` and ```.slurm``"
+- "Common slurm batch file extensions include ```.sh``` and ```.slurm```"
 - "Save the job ID into a file with output redirect"
 ---
 

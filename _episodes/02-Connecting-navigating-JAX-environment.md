@@ -1,11 +1,12 @@
 ---
-title: "05 Accessing Remotes Systems with SSH"
+title: "02 Connecting to (and navigating in) the JAX HPC environment"
 teaching: 10
 exercises: 0
 questions:
 - "How to connect to a remote system?"
+- "What do I do on the command line?"
 objectives:
-- "Understand how ssh and related tools are used to connect to HPC resources"
+- "Connect to the cluster via terminal and SSH"
 keypoints:
 - "ssh is the preferred way to connect to linux servers"
 - "ssh is secure and protects information sent"
